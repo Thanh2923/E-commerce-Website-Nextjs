@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import AppHeader from "../components/app.header";
+import AppHeader from "../components/page/app.header";
 import "./app.style.css"
 
 import { config } from '@fortawesome/fontawesome-svg-core';

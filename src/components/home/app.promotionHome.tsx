@@ -1,5 +1,5 @@
 import AppItemImgPromotion from './app.itemImgPromotion copy';
-import AppItemProduct from './app.itemProduct';
+import AppItemProduct from '../app.itemProduct';
 import AppItemPromotion from './app.itemPromotion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
