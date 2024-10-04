@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import AppHeader from "../components/page/app.header";
+import AppHeader from "../components/users/page/app.header";
 import "./app.style.css"
 
 import { config } from '@fortawesome/fontawesome-svg-core';
@@ -32,8 +32,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-      <>
-      <AppHeader/>
+      <> <AppHeader/>
+     
       {children}
       </>
       </body>
